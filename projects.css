@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    text-align: left;
+    padding: 50px 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project-img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.project-link {
+    color: inherit;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+    font-size: inherit;
+}
+
+.project-link:hover {
+    color: #5a9ee7;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
